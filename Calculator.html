@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Calculator</title>
+     <link rel="stylesheet" href="../CSS/Calculator.css">
+</head>
+<body>
+     <h1>Online Calculator</h1>
+     <br><br>
+     <div class="container">
+          <table id="calculator">
+               <tr>
+                    <td colspan="3"><input type="text" id="answer" class="btn"></td>
+                    <td><input type="button" value="CE" class="btn" id="clearall"></td>
+               </tr>
+               <tr>
+                    <td><input type="button" value="1" class="btn"></td>
+                    <td><input type="button" value="2" class="btn"></td>
+                    <td><input type="button" value="3" class="btn"></td>
+                    <td><input type="button" value="/" class="btn"></td>
+               </tr>
+               <tr>
+                    <td><input type="button" value="4" class="btn"></td>
+                    <td><input type="button" value="5" class="btn"></td>
+                    <td><input type="button" value="6" class="btn"></td>
+                    <td><input type="button" value="*" class="btn"></td> 
+                    <td><input type="button" value="copy" class="btn" id="tocopy" hidden></td> 
+               </tr>
+               <tr>
+                    <td><input type="button" value="7" class="btn"></td>
+                    <td><input type="button" value="8" class="btn"></td>
+                    <td><input type="button" value="9" class="btn"></td>
+                    <td><input type="button" value="-" class="btn"></td>
+               </tr>
+               <tr>
+                    <td><input type="button" value="0" class="btn"></td>
+                    <td><input type="button" value="." class="btn"></td>
+                    <td><input type="button" value="=" id="eql"></td>
+                    <td><input type="button" value="+" class="btn"></td>
+                    <!-- <td><input type="button" value="=" id="tempeql"></td> -->
+               </tr>
+          </table>
+          <div class="history">
+               <h3>History</h3>
+               <div id="line"></div>
+               <button id="delete">Delete History</button>
+               <button id="show"></button>
+               <p id="history-val"></p>
+          </div>
+     </div>
+     <script src="../JS/Calculator.js"></script>
+</body>
+</html>

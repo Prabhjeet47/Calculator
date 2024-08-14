@@ -1,0 +1,94 @@
+*{
+     margin: 0px;
+}
+
+h1{
+     text-align: center;     
+     background: linear-gradient(to right, #F7E025, #FFAE42);
+     padding: 5px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: black;
+}
+
+#calculator{
+     min-width: 250px;
+     min-height: 300px;
+     margin: 20px;
+}
+
+#calculator tr{
+     /* background-color: blue; */
+     width: 300px;
+}
+
+#answer{
+     min-width: 188px;
+     height: 56px;
+     background-color: #F7E025;
+     color: black;
+     font-weight: 700;
+}
+
+.btn, #eql{
+     width: 61.5px;
+     height: 61.5px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: larger;
+     background: #ffffff;
+     border: solid 2px #F7E025;
+}
+
+#eql{
+     background-color: #F7E025;
+     color: black;
+}
+
+.history{
+     margin: 20px;
+     /* border: solid 2px red; */
+     min-width: 350px;
+}
+
+.container{
+     display: flex;
+}
+
+.history h3{
+     text-align: center;
+     margin-top: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#line{
+     margin-top: 5px;
+     margin-bottom: 10px;
+     border: solid 1px rgb(255, 169, 10);
+}
+
+#history-val{
+     margin-left: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     position: relative;
+     bottom: 50px;
+}
+
+#show, #delete{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     position: relative;
+     left: 363px;
+     bottom: 10px;
+     margin-bottom: 5px;
+     padding: 5px;
+     border: solid 1px #f7e025;
+     background-color: #f7e025;
+     border-radius: 0px;
+     width: 105px;
+     display: block;
+}
+
+#show{
+     background: none;
+     border: none;
+     color: none;
+}
+
